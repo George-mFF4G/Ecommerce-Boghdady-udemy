@@ -1,0 +1,29 @@
+{
+  "name": "e-commerce_resutdulapis-nodejs",
+  "version": "1.0.0",
+  "description": "this e-commerce restful apis project created with udemy course in nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production & node server.js"
+  },
+  "keywords": [
+    "e-commerce",
+    "nodejs",
+    "restful-apis"
+  ],
+  "author": "george morkos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.0.1",
+    "mongoose": "^7.3.1",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
